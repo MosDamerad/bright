@@ -50,11 +50,39 @@ body,
     background:  #262626;
 }
 
+section.blc-sec.section-padding.pb-100.white{
+    /* background: #ffc107;
+    background: #af860c; */
+    background: #fff;
+}
+
+p.enhanced-text{
+    font-size: 19px !important;
+    color: #000;
+}
+
+.dark-text{
+    color: #000 !important;
+}
+
+.dark-text h6{
+    color: #fff !important;
+    color: #000 !important;
+}
+
 .services .step-item.xcolor, 
 .white-bg,
 .block-sec .white-bg,
 .min-area .img:after{
     background: var(--light-color) !important;
+}
+
+.sec-head .tbg{
+    -webkit-text-stroke: 1px rgb(255 255 255);
+}
+
+.team .item .info .social a{
+    color: #fff !important;
 }
 
 @media (max-width: 767px){
