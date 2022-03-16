@@ -1,0 +1,64 @@
+:root{
+    --bright-color: #fecc00;
+    --dark-color: #000;
+    --light-color: #fff;
+} 
+
+body,
+.sub-bg,
+.footer-half .copyrights
+#preloader,
+#preloader:after, #preloader:before,
+.footer-half .copyrights
+{
+    background: var(--dark-color) !important;
+}
+
+.bg-color{
+    background-color: var(--bright-color) !important;
+}
+
+.main-color,
+.progress-wrap::after,
+.services .mas-item .icon,
+.sec-head h6,
+.portfolio .filtering span.active,
+.footer-half .subscribe form button,
+.block-sec .vid-area .vid-icon .vid span,
+.services .step-item .icon,
+.footer-half .copyrights p a,
+.call-action .content h6 span,
+.works-header .capt h2 span{    
+    color: var(--bright-color) !important;
+}
+ 
+.block-sec .testim-box, 
+.sub-title span ,
+.portfolio .filtering span:after,
+.services .mas-item .bg-color,
+.skills-box .skill-progress .progres,
+.skills-box .skill-progress .progres:after,
+.pace .pace-progress{
+    background: var(--bright-color) !important;
+}
+
+.progress-wrap svg.progress-circle path{
+    stroke: var(--bright-color) !important;
+}
+
+.block-sec .vid-area .vid-icon .vid{
+    background:  #262626;
+}
+
+.services .step-item.xcolor, 
+.white-bg,
+.block-sec .white-bg,
+.min-area .img:after{
+    background: var(--light-color) !important;
+}
+
+@media (max-width: 767px){
+    .team .team-container{
+        width: 100% !important;
+    }
+}
