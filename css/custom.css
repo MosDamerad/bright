@@ -138,6 +138,10 @@ p.enhanced-text{
     -webkit-mask-size: 200%;
     animation: shine 2s linear infinite;
   }
+
+  .clients .brands .item{
+      border: 1px solid rgb(0 0 0 / 8%);
+  }
   
   @keyframes shine {
     from { -webkit-mask-position: 150%; }
