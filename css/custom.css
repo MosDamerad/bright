@@ -85,6 +85,10 @@ p.enhanced-text{
     color: #fff !important;
 }
 
+.team .team-container:after {
+    background: #000 !important;
+}
+
 @media (max-width: 767px){
     .team .team-container{
         width: 100% !important;
