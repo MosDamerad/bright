@@ -97,12 +97,44 @@ p.enhanced-text{
     color: var(--bright-color) !important;
 }
 
-.header-text.bright{
-    font-size: 172px;
+.header-text {
+    font-size: 140px;
+}
+
+.white-text{
+    color: #fff !important;
+}
+
+.cursor-inner{
+    background-color: var(--bright-color) !important;
+}
+
+.bulb{
+    height: 50vh;
+    margin-bottom: -106px;
+}
+
+.bulb img{
+    height: 50vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cursor-inner.cursor-hover{
+    background-color: var(--bright-color) !important;
+}
+
+.cursor-outer{
+    border: 1px solid #dacb75 !important;
+    opacity: 0.5;
 }
 
 @media (max-width: 767px){
     .team .team-container{
         width: 100% !important;
+    }
+
+    .header-text {
+        font-size: 770px;
     }
 }
