@@ -1,5 +1,5 @@
 :root{
-    --bright-color: #fecc00;
+    --bright-color: #FFC001;
     --dark-color: #000;
     --light-color: #fff;
 } 
@@ -92,6 +92,14 @@ p.enhanced-text{
 /* .footer-half::after{
     background: #000 !important;
 } */
+
+.bright{
+    color: var(--bright-color) !important;
+}
+
+.header-text.bright{
+    font-size: 172px;
+}
 
 @media (max-width: 767px){
     .team .team-container{
