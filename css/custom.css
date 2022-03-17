@@ -137,4 +137,15 @@ p.enhanced-text{
     .header-text {
         font-size: 77px;
     }
+    
+    .bulb {
+        height: 40vh;
+        margin-bottom: -106px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .team .team-container{
+        width: 100% !important;
+    }       
 }
