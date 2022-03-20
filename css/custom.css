@@ -14,6 +14,10 @@ body,
     background: var(--dark-color) !important;
 }
 
+.main-content{
+    background: var(--dark-color)
+}
+
 .bg-color{
     background-color: var(--bright-color) !important;
 }
@@ -176,6 +180,9 @@ p.header-text{
     font-size: 30px;
 }
 
+.btn-curve.btn-lit:hover span {
+    color: #000;
+}
 
 .glow {
     color: #fff;
