@@ -192,7 +192,7 @@ p.header-text{
     to { -webkit-mask-position: -50%; }
   }
 
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
     .team .team-container{
         width: 100% !important;
     }
