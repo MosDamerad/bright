@@ -149,7 +149,7 @@ p.header-text{
 }
 
 .imago img{
-    width: 270px;
+    /* width: 270px; */
     height: 300px;
     object-fit: cover;
 }
