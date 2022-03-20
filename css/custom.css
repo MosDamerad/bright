@@ -216,14 +216,14 @@ p.header-text{
 
     .pages-header .stroked{
         font-size: 56px !important;
-    }
+    }      
+    .hero-img{   
+        background-position: center 0px !important;
+    } 
 }
 
 @media screen and (max-width: 1024px) {
     .team .team-container{
         width: 100% !important;
-    }      
-    .hero-img{   
-        background-position: center 0px !important;
-    } 
+    }
 }
