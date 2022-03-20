@@ -230,11 +230,27 @@ p.header-text{
     }      
     .hero-img{   
         background-position: center !important;
-    } 
+    }
+
+    /* .sec-head .tbg{
+        position: relative;
+        text-align: center !important;
+        padding-bottom: 30px;
+        font-size: 60px;
+    }  */
 }
 
 @media screen and (max-width: 1024px) {
     .team .team-container{
         width: 100% !important;
     }
+}
+
+@media screen and (max-width: 1023px){
+    .sec-head .tbg{
+        position: relative;
+        text-align: center !important;
+        padding-bottom: 30px;
+        font-size: 60px;
+    } 
 }
