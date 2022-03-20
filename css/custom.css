@@ -97,8 +97,17 @@ p.enhanced-text{
     color: var(--bright-color) !important;
 }
 
-.header-text {
-    font-size: 140px;
+.header-text{
+    padding-top: 70px;
+}
+
+p.header-text{
+    font-size: 70px !important;
+    line-height: 91px;
+}
+
+.hero-text {
+    font-size: 30px !important;
 }
 
 .white-text{
@@ -171,7 +180,7 @@ p.enhanced-text{
     }
 
     .header-text {
-        font-size: 86px;
+        /* font-size: 86px; */
     }
     
     .bulb {
