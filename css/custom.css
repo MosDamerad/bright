@@ -215,10 +215,10 @@ p.header-text{
     }
 
     .pages-header .stroked{
-        font-size: 56px !important;
+        font-size: 560px !important;
     }      
     .hero-img{   
-        background-position: center 0px !important;
+        background-position: center !important;
     } 
 }
 
