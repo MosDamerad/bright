@@ -184,6 +184,10 @@ p.header-text{
     color: #000;
 }
 
+.footer-half:after{
+    background: var(--dark-color);
+}
+
 .glow {
     color: #fff;
     letter-spacing: 6px;
