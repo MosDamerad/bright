@@ -114,11 +114,11 @@ p.enhanced-text{
     margin-bottom: -106px;
 }
 
-.bulb img{
+/* .bulb img{
     height: 50vh;
     width: 100%;
     object-fit: contain;
-}
+} */
 
 .cursor-inner.cursor-hover{
     background-color: var(--bright-color) !important;
@@ -134,8 +134,20 @@ p.enhanced-text{
 }
 
 .hero-img{
-    height: 90vh;
-    background : url(../img/bright-bulb.gif) no-repeat center center;
+    height: 70vh;
+    background : url(../img/bright.gif) no-repeat top center;
+    background-size: 100%;
+}
+
+.imago img{
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.min-area .content ul.feat li h6 span{
+    color: var(--bright-color);
+    border: 1px solid var(--bright-color);
 }
 
 .glow {
