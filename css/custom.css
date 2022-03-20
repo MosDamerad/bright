@@ -148,7 +148,7 @@ p.header-text{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center -150px !important;
+    background-position: center -150px;
 }
 
 .imago img{
