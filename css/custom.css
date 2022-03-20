@@ -148,7 +148,7 @@ p.header-text{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center -150px;
+    background-position: center -160px;
 }
 
 .imago img{
@@ -163,7 +163,7 @@ p.header-text{
 }
 
 .header-hero-text{
-    padding-top: 200px;
+    padding-top: 280px;
 }
 
 .stroked{
@@ -206,9 +206,9 @@ p.header-text{
         margin-bottom: -106px;
     }
 
-    /* .header-hero-text{
-        padding-top: 200px;
-    } */
+    .header-hero-text{
+        padding-top: 25vh;
+    }
 
     .sub-hero{
         font-size: 24px;
